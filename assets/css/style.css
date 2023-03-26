@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+header {
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    box-shadow: 0 0 20px #cacaca;
+}
+header nav {
+    display: flex;
+    padding:0 10%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #191919;
+    font-family: 'Kanit', sans-serif;
+}
+.logo a:hover {
+    color:#2937f0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 1.75rem;
+}
+a {
+    text-decoration: none;
+    color:#212529;
+    
+}
+nav ul li a:hover {
+    color:gray;
+}
+nav ul li a:focus {
+    color:#2937f0;
+}
+.nav-btn {
+    border-radius: 22px;
+    background-color: #2937f0;
+    color: #fff;
+    padding: .75rem 1.25rem;
+    transition: .2s;
+}
+.nav-btn:hover {
+    color: #fff;
+}
+.nav-btn:focus {
+    color: #fff;
+    box-shadow: 0 0 0 0.25rem rgba(73, 85, 242, 0.5);
+}
+.nav-btn i {
+    padding: 5px;
+}
+.intro {
+    display: flex;
+    width: 100%;
+    background-color: #f8f9fa;
+    align-items: center;
+    padding: 8% 10%;
+}
+.intro-item {
+    position: flex;
+    width: 50%;
+}
+h1 {
+    font-size: 72px;
+    padding: .5rem;
+    padding-right: 15%;
+    color: #212529;
+    margin-bottom: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.intro-item p{
+    font-size: 22px;
+    padding: .5rem;
+    margin-bottom: 3rem;
+    font-weight: 200;
+}
+.google-play img{
+    width: 25%;
+}
+.google-play img , .app-store img {
+    width: 45%;
+    padding: 0 .5rem;
+}
+.device-circle {
+    position: relative;
+    padding: 3rem 2rem;
+}
+
+.circle-1 {
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(125deg, #535ef8, #e102ff);
+    border-radius: 50%;
+}
+.device img {
+    position: absolute;
+    max-width: 100%;
+
+    height: 500px;
+}
+.d-1 {
+    top: -0.25rem;
+    left: 6.5rem;
+}
+.device video {
+    position: absolute;
+    width:60%;
+    height: 495px;
+}
+.dv-1 {
+    top: 0;
+    left: 4.5rem;
+    border-radius: 25%;
+}
+.bottom-1 {
+    width:100%;
+    background-image: linear-gradient(90deg, #0213fd, #e64dfa);
+    text-align: center;
+    color: #fff;
+    padding:5% 25%;
+}
+.bottom-1 h2 {
+    font-size: 40px;
+    padding: 1.25rem;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: .02rem;
+
+}
+.tnw-logo {
+    max-width: 100%;
+    width: 20%;
+    filter: invert(1);
+    padding: .5rem;
+}
+#features {
+    display: flex;
+    width:100%;
+    text-align: center;
+}
+.features-item {
+    width:33.3%;
+    margin:5%;
+}
+.circle-2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: linear-gradient(160deg, #0213fd 25%, #e64dfa );
+    margin: 30% 10%;
+}
+.d-2 {
+    right: -3.5rem;
+    top:1rem;
+    scale: .9;
+}
+.dv-2 {
+    right: -1.6rem;
+    top: 1rem;
+    border-radius: 15%;
+    scale: 1.05;
+}
+.features-item2 {
+    display: flex;
+    padding-left: 10%;
+    padding-top: 5.5rem;
+    padding-right: 12%;
+    max-width: 100%;
+}
+
+.v-100{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.items-list {
+    width: 50%;
+    padding-right: 2rem;
+}
+.items-list i {
+    width: 50%;
+    font-size: 60px;
+    background-image: linear-gradient(135deg, #0213fd , #e732ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 1.25rem 0;
+    justify-content: space-between;
+}
+.items-list h4 {
+    font-size: 24px;
+    padding: .75rem 0;
+    color: #212529;
+}
+.items-list p {
+    font-size: 17px;
+    color: #6c7781;
+}
+#web {
+    background-color: #f8f9fa;
+    padding: 7% 10%;
+}
+.web-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.web-item h2 {
+    font-size: 54px;
+    padding-right: 38%;
+    padding-bottom: 1.25rem;
+    color: #212529;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.web-item p {
+    font-size: 20px;
+    padding-right: 26%;
+    color: #6c757d;
+}
+.web-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+#billboard {
+    position: relative;
+    padding: 15rem 10%;
+    background-image: url("https://source.unsplash.com/5g41N3uRPf8/1500x800");
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(117, 117, 117);
+    background-blend-mode: multiply;
+}
+.billboard-container h2 {
+    font-size: 65px;
+    color: #fff;
+}
+.pb-3 {
+    padding-bottom: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn-2 {
+    color: #fff;
+    font-size: 17px;
+    border: 1px solid #fff;
+    border-radius: 33px;
+    padding: 13px 15px;
+    transition: .25s;
+}
+.btn-2:hover {
+    background-color: #fff;
+    color: #1b1b1b;
+}
+#download {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
+    background-image: linear-gradient(65deg, #0213fd , #e732ff );
+}
+.ad {
+    font-size: 43px;
+    padding: .5rem;
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+}
+.google img {
+    width: 10%;
+}
+.app img {
+   width: 10%;
+}
+.download-btn {
+    padding: .5rem;
+    text-align: center;
+}
+.google img , .app img {
+    width: 20%;
+    padding: 0 .75rem;
+}
+footer {
+    text-align: center;
+    padding: 2.5rem;
+    background-color: #000;
+    color: #7c8078;
+}
+footer h5 {
+    padding: .5rem;
+    font-size: 16px;
+}
+footer p {
+    padding: .5rem;
+}
